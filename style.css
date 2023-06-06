@@ -142,5 +142,10 @@ footer {
 
 @media (min-width: 700px) {
   :root {
+    --bg-url: url(./assests/sol.jpg);
+  }
+
+  .light {
+    -bg-url: url(./assests/lua.jpg);
   }
 }
