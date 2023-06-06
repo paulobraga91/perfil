@@ -6,6 +6,6 @@ function toogleMode() {
   if (html.classList.contains("ligth")) {
     img.setAttribute("alt", "Novo Alt")
   } else {
-    img.setAttribute("alt", "Antigo Alt")
+    img.setAttribute("alt", "Antigo Alt =D")
   }
 }
