@@ -5,7 +5,7 @@
 }
 :root {
   --text-color: white;
-  --bg-url: url(./assests/lua.jpg);
+  --bg-url: url(./assests/luaM.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --profile-color: rgba(255, 255, 255, 0.5);
@@ -14,7 +14,7 @@
 
 .light {
   --text-color: black;
-  --bg-url: url(./assests/sol.jpg);
+  --bg-url: url(./assests/solM.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.5);
   --profile-color: rgba(255, 255, 255, 0.1);
@@ -138,4 +138,9 @@ footer {
   line-height: 24px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+@media (min-width: 700px) {
+  :root {
+  }
 }
